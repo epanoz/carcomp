@@ -1,0 +1,97 @@
+<html>
+<body>
+<style>
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+</style>
+<style>
+style type="text/css">  
+    p {  
+      font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;  
+      font-size: 12pt;  
+    }  
+    p {  
+      font-style: normal;  
+      font-weight: 900;  
+      font-size: 14pt;  
+      color:black;  
+    } 
+input.mybutton {
+    background-color:black; 
+    border: 1px solid green;
+    color: white; 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    width: 15%; 
+    display: block;
+}
+
+.btn-group button:not(:last-child) {
+    border-bottom: none; 
+}	
+</style>	
+ <ul class="nav">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="z06.html">Z06</a></li>
+  <li><a href="m4.html">M4</a></li>
+  <li><a href="gt350.html">GT350</a></li>
+</ul>
+<body background="background3.jpg">
+<h2>Modern Horsepower</h2>
+<img src="gt350front.jpg"alt="gt350front">
+<img src="gt350side.jpg"alt="gt350side">
+<img src="gt350back.jpg"alt="gt350back">
+<h2>2018 Ford Shelby Mustang GT350</h2>
+<p id="demo">The Mustang has been seen in many variations and configurations over the years but the GT350 is something special . The new GT350 comes with a naturally aspirated 5.2L flat plane crank V8 and is cranking out 526 horsepower and 429 ft lbs of torque. What that means for the driver of this car is to expect a 0 - 60 time in  a hair over 4 seconds , which is incredible. To get to that 0-60 time drivers can only choose one of transmission, a 6 speed manual.This mustang also has a top speed around 175 Mph.</p>
+</p>
+<button type="button" onclick="myFunction()">Simple Specs</button>
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "5.2L V8,526 HP,6 Spd, 0-60= 4.2 secs, 175 MPH";
+}
+</script>
+<button type="button" onclick="myFunction2()">Detailed Specs</button>
+<script>
+function myFunction2() {
+    document.getElementById("demo").innerHTML = "The Mustang has been seen in many variations and configurations over the years but the GT350 is something special . The new GT350 comes with a naturally aspirated 5.2L flat plane crank V8 and is cranking out 526 horsepower and 429 ft lbs of torque. What that means for the driver of this car is to expect a 0 - 60 time in  a hair over 4 seconds , which is incredible. To get to that 0-60 time drivers can only choose one of transmission, a 6 speed manual.This mustang also has a top speed around 175 Mph."
+}
+</script>
+<style type="text/css">  
+    p {  
+      font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;  
+      font-size: 12pt;  
+    }  
+    em{  
+      font-style: bold;  
+      font-weight: bold;  
+      font-size: 14pt;  
+      color: ;  
+    } 
+</style>	
+</body>
+<form>
+<input class="MyButton" type="button" value=" Ford Website" onclick="window.location.href='https://www.ford.com/performance/gt350/'" />
+</form> 
+
+
+</body>
+</html>
